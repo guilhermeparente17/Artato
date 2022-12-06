@@ -13,7 +13,6 @@ import {
 } from './Card.Elements'
 
 const Card = ({ item, key }) => {
-    console.log(item.comments);
   return (
     <CardContainer>
         <CardBg style={{backgroundImage: `url(${item.bg})`}}>

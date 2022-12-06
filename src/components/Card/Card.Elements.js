@@ -15,6 +15,11 @@ export const CardContainer = styled.div`
         scale: 1.1;
         transition: 0.2s ease-in-out;
     }
+
+    @media screen and (max-width: 750px){
+        width: 250px;
+        height: 350px;
+    }
 `;
 
 export const CardBg = styled.div`
@@ -24,9 +29,15 @@ export const CardBg = styled.div`
     background-position: center;
     background-size: cover;
     
+    @media screen and (max-width: 750px){
+        width: 250px;
+        height: 75%;
+    }
 `;
 
-export const CardUsers = styled.div``;
+export const CardUsers = styled.div`
+    margin-left: 10px;
+`;
 
 export const CardUser = styled.img`
     width: 35px;

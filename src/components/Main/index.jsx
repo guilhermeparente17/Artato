@@ -1,6 +1,6 @@
 import React from 'react'
 import { data } from '../../data.js';
-import Card from '../Card/index.js';
+import Card from '../Card/index.jsx';
 
 import {
     MainContainer,

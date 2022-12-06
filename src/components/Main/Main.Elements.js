@@ -6,6 +6,7 @@ export const MainContainer = styled.section`
     align-items: center;
     padding: 20px;
     width: 90%;
+    margin-bottom: 30px;
 
     @media screen and (max-width: 1350px){
         flex-wrap: wrap;
@@ -70,6 +71,10 @@ export const MainP = styled.p`
     margin-bottom: 30px;
     letter-spacing: 2px;
     font-weight: 500;
+
+    @media screen and (max-width: 750px){
+        margin-left: 10px;
+    }
 `;
 
 export const MainButtons = styled.div`
