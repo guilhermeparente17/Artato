@@ -97,6 +97,7 @@ export const ButtonSignUp = styled.button`
 export const HeaderMenu = styled.div`
     display: none;
     margin-right: 20px;
+    cursor: pointer;
 
     @media screen and (max-width: 800px){
         display: block;

@@ -15,7 +15,7 @@ import {
 
 import Logo from '../../assets/images/coruja.png';
 
-const Header = () => {
+const Header = ({toggle}) => {
   return (
     <HeaderContainer>
         <HeaderLogo>
@@ -37,7 +37,7 @@ const Header = () => {
 
         </HeaderUser>
 
-        <HeaderMenu>
+        <HeaderMenu onClick={() => toggle()}>
             <GiHamburgerMenu size="30" color="#F37631" />
         </HeaderMenu>
         
