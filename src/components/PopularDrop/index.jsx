@@ -1,6 +1,7 @@
 import React from 'react';
 import { dataDrop } from '../../dataDrop';
 import Card from '../Card';
+import Footer from '../Footer';
 
 import {
     PDCards,
@@ -27,6 +28,7 @@ const PopularDrop = () => {
                 })
             }
         </PDCards>
+        <Footer />
     </PDContainer>
   )
 }

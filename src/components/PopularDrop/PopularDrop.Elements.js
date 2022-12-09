@@ -39,6 +39,7 @@ export const PDCards = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    margin-bottom: 30px;
 
     @media screen and (max-width: 1360px) {
         grid-template-columns: repeat(2, 1fr);

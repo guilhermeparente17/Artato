@@ -32,7 +32,7 @@ const Main = () => {
 
             <MainButtons>
                 <ButtonExplore>Explore</ButtonExplore>
-                <MainSpan cursor={true}>Lean More</MainSpan>
+                <MainSpan cursor="true">Lean More</MainSpan>
             </MainButtons>
 
             <MainNumbers>
@@ -54,8 +54,6 @@ const Main = () => {
                     <MainNumber>+12K</MainNumber>
                     <MainP>Amount</MainP>
                 </MainWrapper>
-
-                <MainSeparator />
                 
             </MainNumbers>
         </MainContent>

@@ -60,7 +60,7 @@ export const MainTitle = styled.h2`
 export const MainSpan = styled.span`
     color: #F87529;
     font-weight: 700;
-    cursor: ${({cursor}) => cursor ? 'pointer' : ''};
+    cursor: pointer;
     
     &:hover{
         text-decoration: ${({cursor}) => cursor ? 'underline' : ''};
