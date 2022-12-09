@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Header from '../../components/Header'
 import Main from '../../components/Main'
+import PopularDrop from '../../components/PopularDrop'
 import Section from '../../components/Section'
 import Sidebar from '../../components/Sidebar'
 import GlobalStyle from '../../GlobalStyle'
@@ -19,6 +20,7 @@ const Home = () => {
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Main />
         <Section />
+        <PopularDrop />
     </div>
   )
 }

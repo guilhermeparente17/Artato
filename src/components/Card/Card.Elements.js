@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
-    width: 400px;
-    height: 550px;
+    width: ${({widthContainer}) => widthContainer ? `${widthContainer}px` : '400px'};
+    height: ${({heightContainer}) => heightContainer ? `${heightContainer}px` : '550px'};
     margin: 0px 15px;
     background-color: #fff;
     box-shadow: 0 0px 20px -2px gray;
@@ -16,20 +16,24 @@ export const CardContainer = styled.div`
         transition: 0.2s ease-in-out;
     }
 
-    @media screen and (max-width: 750px){
+    @media screen and (max-width: 1210px){
         width: 250px;
         height: 350px;
+    }
+
+    @media screen and (max-width: 600px){
+        margin: ${({margin}) => margin};
     }
 `;
 
 export const CardBg = styled.div`
-    width: 350px;
-    height: 85%;
+    width: ${({widthContainer}) => widthContainer ? `${widthContainer}px` : '400px'};
+    height:${({heightBg}) => heightBg ? `${heightBg}%` : '85%'};
     border-radius: 5px;
     background-position: center;
     background-size: cover;
     
-    @media screen and (max-width: 750px){
+    @media screen and (max-width: 1210px){
         width: 250px;
         height: 75%;
     }

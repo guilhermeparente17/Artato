@@ -37,7 +37,7 @@ const Section = () => {
                 and collect <HeroSpan>NFTs</HeroSpan>
             </HeroH1>
             <HeroP>
-                discover new pictures for your profile
+                Discover new pictures for your profile
             </HeroP>
             <HeroBtnWrapper>
                 <Lottie 

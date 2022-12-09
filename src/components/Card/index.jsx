@@ -12,10 +12,10 @@ import {
     CardPrice
 } from './Card.Elements'
 
-const Card = ({ item, key }) => {
+const Card = ({ item, key, margin, widthContainer, heightContainer, heightBg }) => {
   return (
-    <CardContainer>
-        <CardBg style={{backgroundImage: `url(${item.bg})`}}>
+    <CardContainer key={key} margin={margin} widthContainer={widthContainer} heightContainer={heightContainer} >
+        <CardBg widthContainer={widthContainer} heightBg={heightBg} style={{backgroundImage: `url(${item.bg})`}}>
             
         </CardBg>
         <CardUsers>
